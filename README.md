@@ -53,6 +53,10 @@ In your Home Assistant user profile, select **Anvil Aerospace** under **Theme**.
 
 The theme styles Home Assistant's standard frontend variables. Individual custom cards may define their own colors and may need card-specific styling.
 
+## Typography
+
+The theme uses **Oxanium**, matching the typography used in the Drake Interplanetary Orange theme. Add Oxanium as a dashboard font resource in Home Assistant to load the typeface; the theme uses native Home Assistant font variables and falls back to a sans-serif font if Oxanium is unavailable. No card-mod dependency is required.
+
 ## License
 
 MIT

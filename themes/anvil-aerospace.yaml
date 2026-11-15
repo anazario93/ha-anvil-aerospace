@@ -108,15 +108,22 @@ Anvil Aerospace:
   ha-color-primary-90: "#D9FBF7"
   ha-color-primary-95: "#ECFDFC"
 
-  # Typography and selection
-  paper-font-body1_-_font-family: "Roboto, sans-serif"
-  paper-font-common-base_-_font-family: "Roboto, sans-serif"
+  # Selection
   text-selection-color: "#0B202B"
   text-selection-background-color: "#63F0EA"
 
-  # Keep the cockpit palette in dark mode regardless of device preference
+  # Keep the cockpit palette and Oxanium typography in dark mode
+  # Add Oxanium as a dashboard font resource for the intended display typeface.
   modes:
     dark:
+      # Typography — consistent with the Drake Interplanetary theme
+      primary-font-family: "'Oxanium', sans-serif"
+      ha-font-family-body: "var(--primary-font-family)"
+      ha-font-family-heading: "var(--primary-font-family)"
+      ha-font-family-code: "var(--primary-font-family)"
+      ha-font-family-longform: "var(--primary-font-family)"
+      ha-card-header-font-family: "var(--primary-font-family)"
+
       primary-background-color: "#0B202B"
       secondary-background-color: "#102B38"
       card-background-color: "#123342"

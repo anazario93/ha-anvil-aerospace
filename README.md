@@ -29,7 +29,7 @@ The design uses deep blue-black cockpit surfaces, illuminated cyan display text,
 
 ### Manual
 
-1. Copy the `themes/anvil-aerospace` directory into your Home Assistant `config/themes/` directory.
+1. Copy the ``themes/anvil-aerospace.yaml` file into your Home Assistant `config/themes/` directory.
 2. Ensure themes are enabled in `configuration.yaml`:
 
    ```yaml

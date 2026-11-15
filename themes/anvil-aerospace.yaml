@@ -112,18 +112,21 @@ Anvil Aerospace:
   text-selection-color: "#0B202B"
   text-selection-background-color: "#63F0EA"
 
-  # Keep the cockpit palette and Oxanium typography in dark mode
-  # Add Oxanium as a dashboard font resource for the intended display typeface.
+  # Typography — same Oxanium setup used by Drake Interplanetary Orange.
+  # Oxanium must be loaded as a frontend font resource in Home Assistant.
+  primary-font-family: "'Oxanium', sans-serif"
+  ha-font-family-body: "'Oxanium', sans-serif"
+  ha-font-family-heading: "'Oxanium', sans-serif"
+  ha-font-family-code: "'Oxanium', monospace"
+  ha-font-family-longform: "'Oxanium', sans-serif"
+  ha-card-header-font-family: "'Oxanium', sans-serif"
+  paper-font-common-base_-_font-family: "'Oxanium', sans-serif"
+  paper-font-body1_-_font-family: "'Oxanium', sans-serif"
+  mdc-typography-font-family: "'Oxanium', sans-serif"
+
+  # Dark-mode cockpit palette
   modes:
     dark:
-      # Typography — consistent with the Drake Interplanetary theme
-      primary-font-family: "'Oxanium', sans-serif"
-      ha-font-family-body: "var(--primary-font-family)"
-      ha-font-family-heading: "var(--primary-font-family)"
-      ha-font-family-code: "var(--primary-font-family)"
-      ha-font-family-longform: "var(--primary-font-family)"
-      ha-card-header-font-family: "var(--primary-font-family)"
-
       primary-background-color: "#0B202B"
       secondary-background-color: "#102B38"
       card-background-color: "#123342"

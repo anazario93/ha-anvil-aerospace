@@ -19,7 +19,7 @@ Anvil Aerospace:
   secondary-background-color: "#102B38"
   card-background-color: "#123342"
   ha-card-background: "#123342"
-  lovelace-background: "#0B202B"
+  lovelace-background: 'center / cover no-repeat fixed url("https://raw.githubusercontent.com/anazario93/ha-anvil-aerospace/main/images/anvil_mfd_bg.jpg.jpg")'
   app-header-background-color: "#0A1B25"
   app-header-text-color: "#BCEFED"
   sidebar-background-color: "#0A1B25"

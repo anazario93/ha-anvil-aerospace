@@ -16,9 +16,9 @@ Anvil Aerospace:
 
   # Cockpit surfaces
   primary-background-color: "#0B202B"
-  secondary-background-color: "#102B38"
-  card-background-color: "#123342"
-  ha-card-background: "#123342"
+  secondary-background-color: "#16434C"
+  card-background-color: "#1B5960"
+  ha-card-background: "#1B5960"
   lovelace-background: 'center / cover no-repeat fixed url("https://raw.githubusercontent.com/anazario93/ha-anvil-aerospace/main/images/anvil_mfd_bg.jpg.jpg")'
   app-header-background-color: "#0A1B25"
   app-header-text-color: "#BCEFED"
@@ -26,10 +26,10 @@ Anvil Aerospace:
   sidebar-text-color: "#80AEB7"
   sidebar-selected-background-color: "#174353"
   sidebar-selected-icon-color: "#A8E6D0"
-  divider-color: "#245365"
+  divider-color: "#347F80"
 
   # Borders and subtle illumination
-  ha-card-border-color: "#245365"
+  ha-card-border-color: "#347F80"
   ha-card-border-radius: "4px"
   ha-card-box-shadow: "0 0 8px rgba(38, 190, 200, 0.08)"
   outline-color: "#34788A"
@@ -51,7 +51,7 @@ Anvil Aerospace:
   switch-unchecked-track-color: "#294653"
   slider-color: "#8CCFB8"
   slider-secondary-color: "#245365"
-  input-fill-color: "#102B38"
+  input-fill-color: "#16434C"
   input-fill-color-disabled: "#0D2530"
   input-ink-color: "#D7F5F2"
   input-label-ink-color: "#79AEB8"
@@ -83,11 +83,11 @@ Anvil Aerospace:
   # Badges, tables, dialogs, and menus
   label-badge-background-color: "#194657"
   label-badge-text-color: "#D7F5F2"
-  paper-dialog-background-color: "#123342"
-  paper-listbox-background-color: "#123342"
-  table-row-background-color: "#123342"
-  table-row-alternative-background-color: "#102B38"
-  data-table-background-color: "#123342"
+  paper-dialog-background-color: "#1B5960"
+  paper-listbox-background-color: "#1B5960"
+  table-row-background-color: "#1B5960"
+  table-row-alternative-background-color: "#16434C"
+  data-table-background-color: "#1B5960"
   markdown-code-background-color: "#0A1B25"
 
   # Charts
@@ -131,7 +131,7 @@ Anvil Aerospace:
   modes:
     dark:
       primary-background-color: "#0B202B"
-      secondary-background-color: "#102B38"
-      card-background-color: "#123342"
+      secondary-background-color: "#16434C"
+      card-background-color: "#1B5960"
       primary-text-color: "#D7F5F2"
       secondary-text-color: "#79AEB8"
